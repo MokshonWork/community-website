@@ -21,7 +21,6 @@ export interface MemberNode {
   children?: MemberNode[]
 }
 
-// ponytail: temporary test URLs, not real profiles — replace per member when provided.
 const placeholder = 'https://example.com/placeholder'
 
 export const memberTree: MemberNode[] = [

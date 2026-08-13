@@ -35,7 +35,7 @@
           <template v-if="node.children && node.children.length > 0">
             <p
               v-if="node.label"
-              class="mt-7 mb-3 text-black/50 text-sm tracking-[0.2em] uppercase"
+              class="mt-7 mb-3 text-black/50 text-base tracking-[0.2em] uppercase"
               style="font-family: 'JetBrains Mono Light', monospace;"
             >{{ node.label }}</p>
             <div class="w-[2px] h-10 bg-gray-200" />

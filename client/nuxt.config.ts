@@ -15,5 +15,16 @@ export default defineNuxtConfig({
   // Optional: Set default color mode
   colorMode: {
     preference: 'dark'
-  }
+  },
+
+  icon: {
+    clientBundle: {
+      icons: [
+        'simple-icons:github',
+        'simple-icons:linkedin',
+        'simple-icons:x',
+        'simple-icons:discord',
+      ],
+    },
+  },
 })
